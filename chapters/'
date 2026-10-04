@@ -1,0 +1,220 @@
+\begin{enumerate}[label=\thesubsection.\arabic*,ref=\thesubsection.\theenumi]
+\item The statements (S1), (S2), and (S3) pertain to the scores obtained by students in
+an exam. The maximum possible marks in the exam is 150.
+	\begin{enumerate}
+		\item[(S1)] The highest score is 100.
+		\item[(S2)] The fourth highest score is 76.
+		\item[(S3)] There are at least four students whose scores are within 25 of each other.
+	\end{enumerate}
+Which of the following options are necessarily correct?
+	
+	\begin{enumerate}
+		\item (S1) and (S2) together imply (S3)
+		\item (S1) and (S3) together imply (S2)
+		\item (S2) and (S3) together imply (S1)
+		\item (S1) implies (S3)
+	\end{enumerate}
+	
+
+
+
+
+
+%--------------------------Q2------------------------------------------------------------
+
+\item Real numbers $y$, $p$, and $n$ (all greater than 1) satisfy
+	$(log_{p^{\frac{1}{n}}} y)(log_{y^{\frac{1}{n}}} p) = 16$,
+		where the logarithms are taken to the bases $p^{\frac{1}{n}}$ and $y^{\frac{1}{n}}$ .
+The value of $n$ is
+		\begin{multicols}{4}
+			\begin{enumerate}
+				\item $2$
+				\item $4$
+				\item $8$
+				\item $16$
+			\end{enumerate}
+		\end{multicols}
+
+
+
+%================================Q3=====================================================
+
+\item Three children P, Q, R and two grown-ups X, Y play a badminton doubles
+tournament. X and Y are parents to two of the children playing. The child of X is
+not the same as the child of Y. Exactly one of the children does not have a parent
+playing in the tournament. The following rules are followed:
+	\begin{enumerate}[label=\roman*]
+		\item A parent and his/her child cannot be on the same team.
+		\item A match can feature at most one parent and his/her child, that is, a
+maximum of one parent-child pair can play in a match.
+	\end{enumerate}
+The following matches were played:\\
+	\begin{tabular}{|l|l|l|}
+		\hline
+		&TEAM 1&TEAM 2\\\hline
+		MATCH 1&P and X&Q and R\\\hline
+		MATCH 2&P and R&X and y\\\hline
+		MATCH 3&R and X&Q and Y\\\hline
+	\end{tabular}\\
+\par Which of the following options is correct?
+
+\begin{enumerate}
+	\item P does not have any parent playing
+	\item Q does not have any parent playing
+	\item R does not have any parent playing
+	\item X does not have a child playing
+\end{enumerate}
+			
+
+
+%===========================Q4=============================
+\item Let $P_k$ represent the perimeter of a square with sides of length $k$. The value of the
+	expression $P_1 + P_2 + P_3 + ...+ P_{10}$ is:
+	
+	\begin{multicols}{4}
+	\begin{enumerate}
+		\item 55
+		\item 110
+		\item 220
+		\item 440
+	\end{enumerate}
+	\end{multicols}
+
+
+
+
+
+%================================Q5=======================================================
+\item Consider the differential equation $\dot{\vec {w}} = A\vec{w}$ , with$\vec{w}(t = 0)=\myvec{1\\1}$
+.If
+$w(t)=e^t\vec{u_x}+e^{-2t}\vec{u_y}$ be the solution to the equation where$\vec{u_x}$ and$\vec{u_y}$ are
+unit vectors along the positive x and y axes respectively, then which of the
+following options is the correct matrix representing A?
+\begin{multicols}{4}
+\begin{enumerate}
+	\item $\myvec{1&0\\
+		0&-2}$
+	\item $\myvec{-1 &0\\
+		0&-2}$
+	\item $\myvec{0&-2\\
+		1&0}$
+	\item $\myvec{0&2\\
+		-1&0}$
+\end{enumerate}
+\end{multicols}
+%==================================Q6=============================================================
+\item A surface is given by $z^2=2x^2−y^2$ and$\vec{n}$ and $\vec{-n}$ are the unit vectors
+are unit normal vectors to the surface at the point $\vec{P}=\vec{i}+\sqrt{2}\vec{k}$
+Which of the following vectors can be$\vec{n}$, where$\vec{i},\vec{j}$ and $\vec{k}$
+along x, y and z axes, respectively?
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item $\vec{i}-\sqrt{2}\vec{k}$
+		\item $\fac{2}{3}\vec{i}-\frac{1}{3}\vec{k}$
+		\item $\sqrt{2}\vec{i}-\sqrt{3}\vec{k}$
+		\item $\frac{\sqrt{2}\vec{i}-\vec{k}}{\sqrt{3}}$
+	\end{enumerate}
+\end{multicols}
+%========================================Q7====================================================
+\item The Laplace Transform of the signal$ x\brak{t}=u\brak{t-2}*\brak{tu\brak{t}}$ is given by
+which of the following expressions?\\
+\{"*" represents the convolution operator\}
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item $\frac{e^{-2s}{s^2\brak{s-2}}}$
+		\item $\frac{e^{-2\brak{s-2}}}{s^3}$
+		\item $\frac{se^{-2s}}{\brak{s-2}^2}$
+		\item $ \frac{e^{-2s}}{s^3}$
+	\end{enumerate}
+\end{multicols}
+%==========================================================Q8=====================================
+\item Two analog signals $x_1\brak{t}$and $x_2\brak{t}$ (t in second), are sampled at a rate
+$F_s = 40$ Hz, where
+$x_1 \brak{t} = \cos \brak{20\pi t},t\geq0,$ and $x_2 \brak{t} = \cos \brak{100\pi t}, t\geq0$.
+The first ten samples (starting from t = 0) are considered for the analysis.
+Which of the following statements is TRUE? 
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item All of the first three samples of $x_1\brak{t}$ are greater than the corresponding samples of $x_2 \brak{t}$. 
+		\item All of the last three samples of $x_1\brak{t}$ are greater than the corresponding samples of $x_2 \brak{t}$. 
+		\item All of the samples of $x_2\brak{t}$ are greater than the corresponding samples of $x_1 \brak{t}$.
+		\item All of the fourth to seventh samples of $x_1\brak{t}$ are equal to the corresponding samples of $x_2 \brak{t}$.
+	\end{enumerate}
+\end{multicols}
+%===========================================================Q9=========================================
+\item The response of a discrete time system $y[n]$ obeys the following relation:\\
+$y[n] =\frac{5}{6} y[n-1] −\frac{1}{6}y[n-2] +x[n]$.\\
+The input to the system is $x[n] = \delta[n] − \frac{1}{3}\delta[n-1]$.
+
+Which of the following options is TRUE for $y[n]$?
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item Stable and causal response
+		\item Stable and non-causal response
+		\item Unstable and causal response
+		\item Unstable and non-causal response
+	\end{enumerate}
+\end{multicols}
+%========================================================Q10==========================================
+\item A control system is shown in the Figure.
+	Which option represents the correct transfer function of the system?
+	%DRAW DIAGRAM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	\begin{multicols}{4}
+		\begin{enumerate}
+			\item $\frac{1}{\Brak{s+4}^2}$
+			\item $\frac{1}{s+4}$
+			\item $\frac{2}{s+4}$
+			\item $\frac{1}{\brak{s^2+8s+17}}$
+		\end{enumerate}
+	\end{multicols}
+%==================================================Q11================================================
+\item Consider a discrete memoryless source with an alphabet of four source symbols.
+	$s\brak{t}$ is a multi-level $\brak{-1, 0, +1, +2}$ signal representing a long sequence of random
+symbols from the above source which is generating 104 symbols per second.
+Which of the following options is the correct value of equivalent Nyquist
+bandwidth of $s\brak{t}$?
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item 10kHz
+		\item 64kHz
+		\item 5kHz
+		\item 20kHz
+	\end{enumerate}
+\end{multicols}
+%=======================================================Q12===========================================
+\item Consider the matrix $\vec{M}=\myvec{2&1&1\\1&3&0\\-1&a&b}$.Which of the following options is/are TRUE if det$\brak{\vec{M}}\neq0$?
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item a=$\frac{-1}{2}$and b=$\frac{-1}{2}$
+		\item a=$\frac{1}{2}$and b=$\frac{1}{2}$
+		\item a=$-3$and b=$0$
+		\item a=$\frac{1}{2}$and b=$-3$
+	\end{enumerate}
+\end{multicols}
+
+%=======================================================Q13============================================
+\item Consider the circuit shown in the Figure, where the input $v_i \brak{t}$ is in Volt.
+The average power (in mW) dissipated in the load resistance of $1 k\Omega$ at the
+resonant frequency is:
+(rounded off to two decimal places)
+%DRAW DIAGRAM 
+%=========================================================Q14=======================================
+\item Consider the two series, SA and SB, where
+	\begin{align*}
+		S_A=\sum_{n=1}^\infty \frac{n^2}{2^n}\\
+		S_B=1+\frac{1}{2}+\frac{1}{8}+\frac{1}{16}+\frac{1}{64}+\frac{1}{128}+\frac{1}{512}+....
+	\end{align*}
+Which of the following statements is correct for the two given series?
+
+
+
+
+
+
+
+
+
+		
+
+\end{enumerate}
+
